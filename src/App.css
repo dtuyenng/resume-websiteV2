@@ -1,42 +1,118 @@
-#root {
-  max-width: 1280px;
+/* 
+   CSS Reset
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* Include padding and border in element's width and height */
+}
+
+html,
+body {
+  height: 100%; /* Ensure root elements take full height */
+  font-size: 100%; /* Set base font size for scaling */
+  line-height: 1.5; /* Improve readability */
+  background-color: rgb(39, 39, 39);
+}
+
+body {
+  text-rendering: optimizeLegibility; /* Better text rendering */
+  -webkit-font-smoothing: antialiased; /* Smooth fonts on Webkit browsers */
+}
+
+img,
+picture,
+video,
+canvas {
+  max-width: 100%; /* Make media responsive */
+  display: block;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit; /* Inherit fonts from the parent */
+}
+
+a {
+  text-decoration: none;
+  color: inherit; /* Inherit color from parent */
+}
+
+ul,
+ol {
+  list-style: none; /* Remove default list styles */
+}
+
+#main-wrapper {
+  font-family: Helvetica, Arial, sans-serif;
+  color: rgb(89, 89, 89);
+  margin: 2rem auto; /* Centers the div horizontally */
+  max-width: calc(100% - 4rem); /* Ensures 1rem margins on both sides */
+  height: 100%;
+}
+
+#header {
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  height: 20%;
+  padding: 1rem;
+}
+
+#logo {
+  /* border: 1px solid black; */
+  display: inline-flex;
   margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.menu {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  /* border: 1px solid green; */
+  margin: 1rem auto 0;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.menu-item {
+  margin: 0 2rem;
+}
+/* mid-wrapper */
+#mid-wrapper {
+  display: flex;
+  justify-content: center;
+  background: rgb(255, 255, 255);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+/* Content */
+
+#content {
+  height: 500px;
+  width: 60%;
+  background: rgb(255, 255, 255);
+  display: flex;
+  margin: 1rem;
+  border: 1px dashed rgb(188, 188, 188);
+  border-radius: 0.5rem;
+  padding: 1rem;
 }
 
-.card {
-  padding: 2em;
+/* Sidebar */
+#sidebar {
+  height: 300px;
+  width: 200px;
+  background: rgb(255, 255, 255);
+  border-radius: 0.5rem;
+  margin: 1rem;
+  border: 1px dashed rgb(188, 188, 188);
+
+  padding: 1rem;
 }
 
-.read-the-docs {
-  color: #888;
+/* Footer */
+#footer {
+  height: 150px;
+  background-color: white;
 }

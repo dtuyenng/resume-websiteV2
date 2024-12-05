@@ -2,7 +2,7 @@ import "./App.css";
 import Header from "./components/Header";
 import Content from "./Content";
 import Footer from "./Footer";
-import Sidebar from "./components/Sidebar";
+import Sidebar from "./Sidebar";
 
 function App() {
   return (

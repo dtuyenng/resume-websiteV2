@@ -1,4 +1,4 @@
-import MenuItems from "./MenuItems";
+import NavigationBar from "./NavigationBar";
 
 function Header() {
   return (
@@ -6,7 +6,7 @@ function Header() {
       <h1 id="logo">
         Hello<div id="big-letter">W</div>orld
       </h1>
-      <MenuItems></MenuItems>{" "}
+      <NavigationBar></NavigationBar>
     </div>
   );
 }

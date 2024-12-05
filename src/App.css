@@ -61,8 +61,8 @@ ol {
   flex-direction: column;
   height: 20%;
   padding-top: 1rem;
-  border-top-left-radius: 1rem;
-  border-top-right-radius: 1rem;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
 }
 
 #logo {
@@ -138,6 +138,20 @@ ol {
 
   padding: 1rem;
 }
+.social-media h4 {
+  text-align: left;
+}
+.social-media img {
+  margin-top: 1rem;
+  transform: rotate(-20deg);
+}
+.contact-widget {
+  margin-top: 3rem;
+}
+.contact-info {
+  padding-left: 0.5rem;
+  font-size: 0.9rem;
+}
 
 /* Footer */
 #footer {
@@ -146,8 +160,8 @@ ol {
   justify-content: flex-end;
   height: 100px;
   background-color: white;
-  border-bottom-left-radius: 1rem;
-  border-bottom-right-radius: 1rem;
+  border-bottom-left-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
 }
 
 .copyright {

@@ -95,6 +95,13 @@ ol {
 .menu-item {
   margin: 0 2rem;
 }
+.menu-item.active {
+  font-weight: bold;
+}
+.menu-item:hover {
+  text-decoration: underline;
+}
+
 /* mid-wrapper */
 #mid-wrapper {
   display: flex;

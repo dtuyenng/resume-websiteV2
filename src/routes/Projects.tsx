@@ -7,7 +7,15 @@ function Projects() {
   return (
     <div id="main-wrapper">
       <Header></Header>
-      <div id="mid-wrapper">Projects</div>
+      <div id="mid-wrapper">
+        <div id="content">
+          <h4>Recent Projects</h4>
+          <div className="under-construction">
+            <span className="material-icons">construction</span>
+            <div>Under Construction ...</div>
+          </div>
+        </div>
+      </div>
       <Footer></Footer>
     </div>
   );

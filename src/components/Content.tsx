@@ -1,19 +1,24 @@
 const Content = () => {
   return (
     <div id="content">
-      <h4>Hello, my name is Andre</h4>
+      <h4>Hello!</h4>
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae
-        nisi magnam modi reiciendis quam assumenda obcaecati libero minima eius
-        fugit commodi rem, cumque possimus iusto fugiat nemo distinctio.
-        Architecto, cum?
+        My name is Andre, I’m a software developer and designer who loves
+        blending coding with creativity. I enjoy creating clean, user-friendly
+        designs and building software that’s both functional and enjoyable to
+        use. Whether I’m writing code or designing an interface, I focus on
+        making things intuitive and easy for people. I’m all about crafting
+        great experiences, combining my technical skills and creative ideas to
+        bring them to life.
       </p>
       <p>
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus
-        suscipit dolorum exercitationem doloremque doloribus minima. Deserunt,
-        quod ad pariatur laboriosam explicabo culpa. Facere, corrupti ipsum
-        culpa enim blanditiis voluptate deserunt.
+        While you're here, you can check out my recent projects to see what I'm
+        up to or learn more about me by clicking here. You can also check all my
+        social pages on the right side. If you need to reach me, please don’t
+        hesitate—I'm just a phone or email away.
       </p>
+
+      <p>Andre Tuyen Nguyen</p>
     </div>
   );
 };

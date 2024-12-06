@@ -4,7 +4,7 @@ import ContactWidget from "./ContactWidget";
 const Sidebar = () => {
   return (
     <div id="sidebar">
-      <SocialMedia></SocialMedia>
+      {/* <SocialMedia></SocialMedia> */}
       <ContactWidget></ContactWidget>
     </div>
   );

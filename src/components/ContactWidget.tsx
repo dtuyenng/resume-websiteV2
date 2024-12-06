@@ -17,7 +17,7 @@ function ContactWidget() {
 
         <div className="github-link">
           <img src="src/assets/github-logo.svg" alt="" />
-          <a href="https://github.com/dtuyenng">Github</a>
+          <a href="https://github.com/dtuyenng">GitHub</a>
         </div>
 
         <div className="linkedin-link">

@@ -123,7 +123,7 @@ ol {
 #content {
   height: 500px;
   width: 100%;
-  max-width: 90%;
+  max-width: 700px;
   background: rgb(255, 255, 255);
   display: flex;
   flex-direction: column;
@@ -172,23 +172,26 @@ ol {
 .menu-item-text .material-icons {
   margin-right: 0.3rem;
 }
-.linkedin-link {
-  display: flex;
-  align-items: center;
-  text-decoration: underline;
-}
-.linkedin-link img {
-  width: 20px;
-  margin-left: 0.4rem;
-  margin-right: 0.3rem;
-}
 
 .github-link {
   display: flex;
   align-items: center;
   text-decoration: underline;
+  margin-top: 0.5rem;
 }
 .github-link img {
+  width: 20px;
+  margin-left: 0.4rem;
+  margin-right: 0.3rem;
+}
+
+.linkedin-link {
+  display: flex;
+  align-items: center;
+  text-decoration: underline;
+  margin-top: 0.5rem;
+}
+.linkedin-link img {
   width: 20px;
   margin-left: 0.4rem;
   margin-right: 0.3rem;

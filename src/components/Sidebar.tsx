@@ -1,4 +1,3 @@
-import SocialMedia from "./SocialMedia";
 import ContactWidget from "./ContactWidget";
 
 const Sidebar = () => {

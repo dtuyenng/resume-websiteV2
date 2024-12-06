@@ -1,5 +1,3 @@
-import SocialMedia from "./SocialMedia";
-
 function ContactWidget() {
   return (
     <div className="contact-widget">

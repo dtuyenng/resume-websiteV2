@@ -3,7 +3,7 @@ import SocialMedia from "./SocialMedia";
 function ContactWidget() {
   return (
     <div className="contact-widget">
-      <h5>Contact Me</h5>
+      <h5>Contact Information</h5>
       <div className="contact-info">
         <div className="menu-item-text">
           <span className="material-icons">email</span>

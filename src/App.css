@@ -139,6 +139,8 @@ ol {
 
 /* Sidebar */
 #sidebar {
+  display: flex;
+  flex-direction: column;
   height: 500px;
   min-width: 210px;
   background: rgb(255, 255, 255);
@@ -157,11 +159,9 @@ ol {
   transform: rotate(-20deg);
 }
 .contact-widget {
-  margin-top: 3rem;
 }
 .contact-info {
   margin-top: 0.7rem;
-  padding-left: 0.3rem;
   font-size: 0.9rem;
   display: flex;
   flex-direction: column;
@@ -177,7 +177,7 @@ ol {
   display: flex;
   align-items: center;
   text-decoration: underline;
-  margin-top: 0.5rem;
+  margin-top: 1rem;
 }
 .github-link img {
   width: 20px;

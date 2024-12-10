@@ -16,7 +16,7 @@ function Projects() {
               under constructions but you can download my resume{" "}
               <a
                 className="download-resume"
-                href="src/assets/andretuyennguyen-resume.pdf"
+                href="public/andretuyennguyen-resume.pdf"
               >
                 here!
               </a>

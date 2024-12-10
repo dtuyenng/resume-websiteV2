@@ -15,7 +15,7 @@ function AboutMe() {
               under constructions but you can download my resume{" "}
               <a
                 className="download-resume"
-                href="public/andretuyennguyen-resume.pdf"
+                href="/andretuyennguyen-resume.pdf"
               >
                 here!
               </a>

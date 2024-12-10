@@ -136,6 +136,12 @@ ol {
 #content > p {
   margin-top: 1rem;
 }
+/* About */
+
+.profile-picture {
+  width: 200px;
+  border: 2px solid rgb(39, 39, 39);
+}
 
 /* Sidebar */
 #sidebar {
@@ -157,8 +163,6 @@ ol {
   margin-top: 1rem;
   margin-left: 0.3rem;
   transform: rotate(-20deg);
-}
-.contact-widget {
 }
 .contact-info {
   margin-top: 0.7rem;
@@ -220,4 +224,8 @@ ol {
 }
 .under-construction .material-icons {
   font-size: 4rem;
+}
+
+.download-resume {
+  text-decoration: underline;
 }

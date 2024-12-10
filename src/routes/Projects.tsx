@@ -11,7 +11,17 @@ function Projects() {
           <h4>Recent Projects</h4>
           <div className="under-construction">
             <span className="material-icons">construction</span>
-            <div>Under Construction ...</div>
+            <p>
+              Hello, unfortunately this section as well as many others are still
+              under constructions but you can download my resume{" "}
+              <a
+                className="download-resume"
+                href="src/assets/andretuyennguyen-resume.pdf"
+              >
+                here!
+              </a>
+              !
+            </p>
           </div>
         </div>
       </div>

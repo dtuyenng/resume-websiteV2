@@ -14,12 +14,12 @@ function ContactWidget() {
         </div>
 
         <div className="github-link">
-          <img src="src/assets/github-logo.svg" alt="" />
+          <img src="github-logo.svg" alt="" />
           <a href="https://github.com/dtuyenng">GitHub</a>
         </div>
 
         <div className="linkedin-link">
-          <img src="src/assets/linkedin-logo.png" alt="" />
+          <img src="/linkedin-logo.png" alt="" />
           <a href="www.linkedin.com/in/andre-tuyen-nguyen-43783b299">
             LinkedIn
           </a>

@@ -13,12 +13,12 @@ function Projects() {
             <span className="material-icons">construction</span>
             <p>
               Hello, unfortunately this section as well as many others are still
-              under constructions but you can download my resume{" "}
+              under constructions! Please have a look at my&nbsp;
               <a
                 className="download-resume"
-                href="/andretuyennguyen-resume.pdf"
+                href="https://www.linkedin.com/in/andre-tuyen-nguyen-43783b299/"
               >
-                here!
+                LinkedIn
               </a>
               !
             </p>

@@ -133,9 +133,6 @@ ol {
   padding: 1rem 2rem;
 }
 
-#content > p {
-  margin-top: 1rem;
-}
 /* About */
 
 .profile-picture {
@@ -228,4 +225,13 @@ ol {
 
 .download-resume {
   text-decoration: underline;
+}
+
+#home {
+  display: flex;
+  flex-direction: column;
+}
+
+#home > p {
+  margin-top: 1rem;
 }

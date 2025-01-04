@@ -9,7 +9,7 @@ function Projects() {
       <div id="mid-wrapper">
         <div id="content">
           <h4>Recent Projects</h4>
-          <div className="under-construction">
+          {/* <div className="under-construction">
             <span className="material-icons">construction</span>
             <p>
               Hello, unfortunately this section as well as many others are still
@@ -22,7 +22,7 @@ function Projects() {
               </a>
               !
             </p>
-          </div>
+          </div> */}
         </div>
       </div>
       <Footer></Footer>
